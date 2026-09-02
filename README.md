@@ -540,10 +540,10 @@ See [`SECURITY.md`](SECURITY.md) for the full security policy and best practices
 | Contributor | GitHub |
 |---|---|
 | Shrelekha Das | [@shrelekhadas9-cell](https://github.com/shrelekhadas9-cell) |
-| Piyali | [@piyali370](https://github.com/piyali370) |
-| Simi | [@Sleeping-Simi](https://github.com/Sleeping-Simi) |
-| Aditya | [@Aditya-Timekillerr](https://github.com/Aditya-Timekillerr) |
-| Sumit | [@InnovativeSumit](https://github.com/InnovativeSumit) |
+| Piyali Debnath | [@piyali370](https://github.com/piyali370) |
+| Sovangi Poddar | [@Sleeping-Simi](https://github.com/Sleeping-Simi) |
+| Aditya Naskar | [@Aditya-Timekillerr](https://github.com/Aditya-Timekillerr) |
+| Sumit Pal | [@InnovativeSumit](https://github.com/InnovativeSumit) |
 | Manabendra Mondal | [@manab-ghh](https://github.com/manab-ghh) |
 
 **Total Contributors: 6**
@@ -553,10 +553,8 @@ See [`SECURITY.md`](SECURITY.md) for the full security policy and best practices
 ## 🤝 Contributing
 
 ```bash
-# Fork the repository on GitHub
-
-# Clone your fork
-git clone https://github.com/<your-username>/shilpsetu-ai.git
+# Fork the repository on GitHub (or clone directly)
+git clone https://github.com/manab-ghh/SIH-2026.git
 
 # Create a feature branch
 git checkout -b feature/your-feature-name
@@ -593,4 +591,3 @@ This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) 
 *"Connecting Traditional Craftsmanship to Digital India"*
 
 </div>
->>>>>>> 571a9d0 (chore: prepare repository for GitHub — add README, docs, CI, gitignore, templates, license)
