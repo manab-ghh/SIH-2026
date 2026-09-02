@@ -1,0 +1,20 @@
+{
+  "model_name": "Tuned Extra Trees",
+  "test_accuracy": 0.9930555555555556,
+  "cv_mean_accuracy": 0.987856071964018,
+  "classes": [
+    "blurry",
+    "cluttered",
+    "dark",
+    "good"
+  ],
+  "features": [
+    "brightness_mean",
+    "brightness_std",
+    "blur_var",
+    "edge_density",
+    "hue_entropy",
+    "saturation_mean",
+    "local_contrast"
+  ]
+}

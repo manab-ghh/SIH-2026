@@ -1,0 +1,43 @@
+{
+  "model_name": "Tuned XGBoost",
+  "mae": 160.99759263356526,
+  "rmse": 227.28956570673,
+  "r2_score": 0.9618188213388118,
+  "mape_pct": 7.44471151332636,
+  "categorical_features": [
+    "category",
+    "material_tier",
+    "size"
+  ],
+  "numeric_features": [
+    "labor_hours",
+    "complexity_score",
+    "quality_score",
+    "market_saturation",
+    "hourly_wage",
+    "material_cost",
+    "cost_per_hour",
+    "complexity_x_quality",
+    "effective_labor_cost"
+  ],
+  "categories": [
+    "Textile",
+    "Pottery",
+    "Jewelry",
+    "Woodwork",
+    "Metalware",
+    "Painting",
+    "Leatherwork",
+    "BambooCane"
+  ],
+  "material_tiers": [
+    "Economy",
+    "Standard",
+    "Premium"
+  ],
+  "size_categories": [
+    "Small",
+    "Medium",
+    "Large"
+  ]
+}

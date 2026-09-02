@@ -1,0 +1,16 @@
+{
+  "model_name": "Tuned Logistic Regression (Calibrated)",
+  "test_accuracy": 1.0,
+  "cv_mean_accuracy": 0.9993957703927492,
+  "categories": [
+    "BambooCane",
+    "Jewelry",
+    "Leatherwork",
+    "Metalware",
+    "Painting",
+    "Pottery",
+    "Textile",
+    "Woodwork"
+  ],
+  "vocab_size": 49
+}

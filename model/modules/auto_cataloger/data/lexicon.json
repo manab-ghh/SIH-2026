@@ -1,0 +1,663 @@
+{
+  "cotton": {
+    "en": [
+      "cotton",
+      "cotton fabric"
+    ],
+    "hi": [
+      "सूती",
+      "कॉटन"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "silk": {
+    "en": [
+      "silk",
+      "silk fabric"
+    ],
+    "hi": [
+      "रेशम",
+      "रेशमी"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "wool": {
+    "en": [
+      "wool",
+      "woollen"
+    ],
+    "hi": [
+      "ऊन",
+      "ऊनी"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "handwoven": {
+    "en": [
+      "handwoven",
+      "hand woven",
+      "handloom"
+    ],
+    "hi": [
+      "हस्तनिर्मित",
+      "हथकरघा"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "embroidered": {
+    "en": [
+      "embroidered",
+      "embroidery"
+    ],
+    "hi": [
+      "कढ़ाई",
+      "कशीदाकारी"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "block_print": {
+    "en": [
+      "block printed",
+      "block print"
+    ],
+    "hi": [
+      "ब्लॉक प्रिंट",
+      "छापा"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "saree": {
+    "en": [
+      "saree",
+      "sari"
+    ],
+    "hi": [
+      "साड़ी"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "dupatta": {
+    "en": [
+      "dupatta",
+      "stole",
+      "scarf"
+    ],
+    "hi": [
+      "दुपट्टा"
+    ],
+    "cat": [
+      "Textile"
+    ]
+  },
+  "terracotta": {
+    "en": [
+      "terracotta",
+      "clay"
+    ],
+    "hi": [
+      "टेराकोटा",
+      "मिट्टी"
+    ],
+    "cat": [
+      "Pottery"
+    ]
+  },
+  "ceramic": {
+    "en": [
+      "ceramic",
+      "ceramics"
+    ],
+    "hi": [
+      "चीनी मिट्टी"
+    ],
+    "cat": [
+      "Pottery"
+    ]
+  },
+  "handpainted_pot": {
+    "en": [
+      "hand painted pottery",
+      "painted pot"
+    ],
+    "hi": [
+      "हाथ से पेंट किया मिट्टी का बर्तन"
+    ],
+    "cat": [
+      "Pottery"
+    ]
+  },
+  "glazed": {
+    "en": [
+      "glazed",
+      "glaze finish"
+    ],
+    "hi": [
+      "चमकदार परत"
+    ],
+    "cat": [
+      "Pottery"
+    ]
+  },
+  "pot": {
+    "en": [
+      "pot",
+      "vase",
+      "urn"
+    ],
+    "hi": [
+      "बर्तन",
+      "फूलदान"
+    ],
+    "cat": [
+      "Pottery"
+    ]
+  },
+  "silver": {
+    "en": [
+      "silver",
+      "sterling silver"
+    ],
+    "hi": [
+      "चांदी"
+    ],
+    "cat": [
+      "Jewelry",
+      "Metalware"
+    ]
+  },
+  "brass": {
+    "en": [
+      "brass"
+    ],
+    "hi": [
+      "पीतल"
+    ],
+    "cat": [
+      "Metalware",
+      "Jewelry"
+    ]
+  },
+  "copper": {
+    "en": [
+      "copper"
+    ],
+    "hi": [
+      "तांबा"
+    ],
+    "cat": [
+      "Metalware"
+    ]
+  },
+  "beadwork": {
+    "en": [
+      "beadwork",
+      "beaded"
+    ],
+    "hi": [
+      "मनके का काम"
+    ],
+    "cat": [
+      "Jewelry"
+    ]
+  },
+  "necklace": {
+    "en": [
+      "necklace"
+    ],
+    "hi": [
+      "हार",
+      "नेकलेस"
+    ],
+    "cat": [
+      "Jewelry"
+    ]
+  },
+  "earrings": {
+    "en": [
+      "earrings"
+    ],
+    "hi": [
+      "झुमके",
+      "बालियां"
+    ],
+    "cat": [
+      "Jewelry"
+    ]
+  },
+  "bangles": {
+    "en": [
+      "bangles"
+    ],
+    "hi": [
+      "चूड़ियाँ"
+    ],
+    "cat": [
+      "Jewelry"
+    ]
+  },
+  "filigree": {
+    "en": [
+      "filigree work",
+      "filigree"
+    ],
+    "hi": [
+      "तार का काम"
+    ],
+    "cat": [
+      "Jewelry"
+    ]
+  },
+  "teak": {
+    "en": [
+      "teak wood",
+      "teak"
+    ],
+    "hi": [
+      "सागौन की लकड़ी"
+    ],
+    "cat": [
+      "Woodwork"
+    ]
+  },
+  "sheesham": {
+    "en": [
+      "sheesham wood",
+      "rosewood"
+    ],
+    "hi": [
+      "शीशम की लकड़ी"
+    ],
+    "cat": [
+      "Woodwork"
+    ]
+  },
+  "carved": {
+    "en": [
+      "hand carved",
+      "carved",
+      "engraved"
+    ],
+    "hi": [
+      "हस्तशिल्प नक्काशी",
+      "नक्काशीदार"
+    ],
+    "cat": [
+      "Woodwork",
+      "Metalware"
+    ]
+  },
+  "wooden_toy": {
+    "en": [
+      "wooden toy"
+    ],
+    "hi": [
+      "लकड़ी का खिलौना"
+    ],
+    "cat": [
+      "Woodwork"
+    ]
+  },
+  "wooden_box": {
+    "en": [
+      "wooden box",
+      "jewellery box"
+    ],
+    "hi": [
+      "लकड़ी का डिब्बा"
+    ],
+    "cat": [
+      "Woodwork"
+    ]
+  },
+  "bidri": {
+    "en": [
+      "bidri work",
+      "bidriware"
+    ],
+    "hi": [
+      "बिदरी कारीगरी"
+    ],
+    "cat": [
+      "Metalware"
+    ]
+  },
+  "engraved_metal": {
+    "en": [
+      "engraved metal",
+      "metal engraving"
+    ],
+    "hi": [
+      "धातु पर नक्काशी"
+    ],
+    "cat": [
+      "Metalware"
+    ]
+  },
+  "lamp": {
+    "en": [
+      "lamp",
+      "diya",
+      "oil lamp"
+    ],
+    "hi": [
+      "दीया",
+      "दीपक"
+    ],
+    "cat": [
+      "Metalware"
+    ]
+  },
+  "madhubani": {
+    "en": [
+      "madhubani painting",
+      "madhubani"
+    ],
+    "hi": [
+      "मधुबनी पेंटिंग"
+    ],
+    "cat": [
+      "Painting"
+    ]
+  },
+  "warli": {
+    "en": [
+      "warli painting",
+      "warli art"
+    ],
+    "hi": [
+      "वर्ली चित्रकला"
+    ],
+    "cat": [
+      "Painting"
+    ]
+  },
+  "pattachitra": {
+    "en": [
+      "pattachitra",
+      "patachitra painting"
+    ],
+    "hi": [
+      "पट्टचित्र"
+    ],
+    "cat": [
+      "Painting"
+    ]
+  },
+  "canvas": {
+    "en": [
+      "canvas painting",
+      "on canvas"
+    ],
+    "hi": [
+      "कैनवास पेंटिंग"
+    ],
+    "cat": [
+      "Painting"
+    ]
+  },
+  "miniature": {
+    "en": [
+      "miniature painting",
+      "miniature art"
+    ],
+    "hi": [
+      "लघु चित्रकला"
+    ],
+    "cat": [
+      "Painting"
+    ]
+  },
+  "leather_bag": {
+    "en": [
+      "leather bag",
+      "leather handbag"
+    ],
+    "hi": [
+      "चमड़े का बैग"
+    ],
+    "cat": [
+      "Leatherwork"
+    ]
+  },
+  "juti": {
+    "en": [
+      "juti",
+      "mojari",
+      "leather juti"
+    ],
+    "hi": [
+      "जूती",
+      "मोजरी"
+    ],
+    "cat": [
+      "Leatherwork"
+    ]
+  },
+  "leather_belt": {
+    "en": [
+      "leather belt"
+    ],
+    "hi": [
+      "चमड़े की बेल्ट"
+    ],
+    "cat": [
+      "Leatherwork"
+    ]
+  },
+  "tooled_leather": {
+    "en": [
+      "tooled leather",
+      "leather embossing"
+    ],
+    "hi": [
+      "चमड़े पर नक्काशी"
+    ],
+    "cat": [
+      "Leatherwork"
+    ]
+  },
+  "bamboo": {
+    "en": [
+      "bamboo"
+    ],
+    "hi": [
+      "बांस"
+    ],
+    "cat": [
+      "BambooCane"
+    ]
+  },
+  "cane": {
+    "en": [
+      "cane",
+      "cane work"
+    ],
+    "hi": [
+      "बेंत"
+    ],
+    "cat": [
+      "BambooCane"
+    ]
+  },
+  "basket": {
+    "en": [
+      "basket",
+      "woven basket"
+    ],
+    "hi": [
+      "टोकरी"
+    ],
+    "cat": [
+      "BambooCane"
+    ]
+  },
+  "bamboo_lamp": {
+    "en": [
+      "bamboo lamp shade"
+    ],
+    "hi": [
+      "बांस का लैंपशेड"
+    ],
+    "cat": [
+      "BambooCane"
+    ]
+  },
+  "handmade": {
+    "en": [
+      "handmade",
+      "handcrafted",
+      "hand-made"
+    ],
+    "hi": [
+      "हस्तनिर्मित",
+      "हाथ से बना"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  },
+  "traditional": {
+    "en": [
+      "traditional",
+      "heritage",
+      "ethnic"
+    ],
+    "hi": [
+      "पारंपरिक",
+      "परंपरागत"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  },
+  "colorful": {
+    "en": [
+      "colorful",
+      "vibrant",
+      "multicolor"
+    ],
+    "hi": [
+      "रंगीन",
+      "बहुरंगी"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  },
+  "intricate": {
+    "en": [
+      "intricate design",
+      "intricate",
+      "detailed work"
+    ],
+    "hi": [
+      "जटिल डिज़ाइन",
+      "बारीक काम"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  },
+  "eco_friendly": {
+    "en": [
+      "eco-friendly",
+      "sustainable",
+      "natural"
+    ],
+    "hi": [
+      "पर्यावरण अनुकूल"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  },
+  "gift": {
+    "en": [
+      "gift item",
+      "for gifting"
+    ],
+    "hi": [
+      "उपहार के लिए"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  },
+  "festive": {
+    "en": [
+      "festive",
+      "for festivals",
+      "wedding collection"
+    ],
+    "hi": [
+      "त्योहार के लिए",
+      "शादी के लिए"
+    ],
+    "cat": [
+      "Textile",
+      "Pottery",
+      "Jewelry",
+      "Woodwork",
+      "Metalware",
+      "Painting",
+      "Leatherwork",
+      "BambooCane"
+    ]
+  }
+}

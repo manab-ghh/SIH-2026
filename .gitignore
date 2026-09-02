@@ -1,0 +1,76 @@
+# ============================================================
+# ShilpSetu AI — Root .gitignore
+# ============================================================
+
+# ────────────────── OS & Editor ──────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ────────────────── Secrets & Environment ──────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.cer
+secrets/
+credentials/
+firebase-adminsdk*.json
+
+# ────────────────── Logs ──────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ────────────────── Node.js ──────────────────
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ────────────────── Flutter / Dart ──────────────────
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub/
+frontend/.pub-cache/
+frontend/build/
+frontend/coverage/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/*.iml
+
+# Flutter Android
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+
+# Flutter iOS
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Flutter/App.framework/
+frontend/ios/Flutter/Flutter.framework/
+frontend/ios/Flutter/flutter_export_environment.sh
+
+# Flutter Windows
+frontend/windows/flutter/generated_plugin_registrant.cc
+frontend/windows/flutter/generated_plugin_registrant.h
+frontend/windows/flutter/generated_plugins.cmake
