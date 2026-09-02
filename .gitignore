@@ -16,6 +16,14 @@ desktop.ini
 *.tmp
 *.bak
 
+# ────────────────── Python & ML ──────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
 # ────────────────── Secrets & Environment ──────────────────
 .env
 .env.*
