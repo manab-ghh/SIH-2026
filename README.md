@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🏺 ShilpSetu AI
+<img src="docs/logo.jpg" alt="ShilpSetu AI Logo" width="140" style="border-radius: 20px;" />
+
+# ShilpSetu AI
 
 ### *Your AI Business Manager for Artisans*
 ### *आपके हुनर का डिजिटल साथी*
