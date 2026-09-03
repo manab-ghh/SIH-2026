@@ -7,14 +7,36 @@
 ### *Your AI Business Manager for Artisans*
 ### *आपके हुनर का डिजिटल साथी*
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.22-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white)](https://expressjs.com)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Flutter](https://img.shields.io/badge/Flutter-3.22-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 **Full-stack AI-powered digital business manager for Indian artisans, weavers, and micro-entrepreneurs**
+
+</div>
+
+---
+
+## 📸 App Preview
+
+<div align="center">
+
+| Login | Home Dashboard | AI Image Studio |
+|:---:|:---:|:---:|
+| ![Login](docs/screenshots/screen01.png) | ![Home Dashboard](docs/screenshots/screen03.png) | ![AI Image Studio](docs/screenshots/screen14.png) |
+
+| Voice Catalog | Smart Pricing Assistant | Visual Craft Search |
+|:---:|:---:|:---:|
+| ![Voice Catalog](docs/screenshots/screen12.png) | ![Smart Pricing](docs/screenshots/screen11.png) | ![Visual Search](docs/screenshots/screen09.png) |
+
+| ShilpSathi AI Assistant | Publish to Marketplaces | Product Details (Published) |
+|:---:|:---:|:---:|
+| ![AI Assistant](docs/screenshots/screen07.png) | ![Publish Product](docs/screenshots/screen22.png) | ![Product Published](docs/screenshots/screen24.png) |
+
+*Full 24-screen walkthrough further down in [📱 Complete App Walkthrough](#-complete-app-walkthrough).*
 
 </div>
 
@@ -85,56 +107,165 @@ India has over **7 crore artisans** producing world-class handmade crafts. Yet m
 
 ---
 
-## 📱 Application Screens
+## 🛠️ Technology Stack
 
-### 🔐 Authentication
-| Screen | File |
+### 📱 Frontend & Mobile
+
+![Flutter](https://img.shields.io/badge/Flutter-3.22-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-2.x-00C4B4?style=flat-square)
+![Dio](https://img.shields.io/badge/Dio-5.x-5C6BC0?style=flat-square)
+![go_router](https://img.shields.io/badge/go__router-14.x-4285F4?style=flat-square)
+![intl](https://img.shields.io/badge/flutter__localizations-intl-673AB7?style=flat-square)
+
+| Technology | Purpose |
 |---|---|
-| Splash Screen | `splash/splash_screen.dart` |
-| Onboarding | `onboarding/onboarding_screen.dart` |
-| Login | `auth/login_screen.dart` |
-| Register | `auth/register_screen.dart` |
+| Flutter 3.22 | Cross-platform UI toolkit (Android, iOS, Web) |
+| Dart 3.x | Application programming language |
+| flutter_riverpod | Reactive state management |
+| go_router | Declarative navigation & routing |
+| Dio | HTTP client for REST API communication |
+| flutter_secure_storage | Encrypted local token storage |
+| cached_network_image | Efficient image caching |
+| image_picker | Camera & gallery integration |
+| fl_chart | Analytics charts on dashboard |
+| animate_do | UI animations & transitions |
+| flutter_localizations + intl | 6-language localization |
 
-### 🏠 Dashboard
-| Screen | File |
+### ⚙️ Backend & API
+
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-4.x-000000?style=flat-square&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+| Technology | Purpose |
 |---|---|
-| Home Dashboard | `home/home_screen.dart` |
-| Product List | `products/product_list_screen.dart` |
+| Node.js 18+ | JavaScript runtime for the backend |
+| Express.js 4.x | REST API framework — routes, controllers, middleware |
+| jsonwebtoken (JWT) | Stateless authentication |
+| bcryptjs | Password hashing |
+| Multer | Multipart file / image upload handling |
+| Joi | Request payload validation |
+| Helmet | Security HTTP headers |
+| CORS | Cross-origin request control |
+| express-rate-limit | API rate limiting / abuse protection |
 
-### 📦 Product Creation Flow
-| Screen | File |
+### 🗄️ Database
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-ODM-880000?style=flat-square)
+
+| Technology | Purpose |
 |---|---|
-| Add Product Hub | `products/add_product_hub_screen.dart` |
-| Product Form | `products/product_form_screen.dart` |
-| AI Image Studio | `image_studio/image_studio_screen.dart` |
-| Voice Catalog | `catalog/voice_catalog_screen.dart` |
-| AI Catalog Result | `catalog/catalog_result_screen.dart` |
-| Smart Pricing | `pricing/smart_pricing_screen.dart` |
-| Product Preview | `products/product_preview_screen.dart` |
-| Product Detail | `products/product_detail_screen.dart` |
+| MongoDB | Primary NoSQL document database |
+| Mongoose | Schema modeling & ODM for MongoDB |
 
-### 🛒 Commerce
-| Screen | File |
+**Live collections** (verified via `mongosh`): `users` · `products` · `aicatalogs` · `pricings` · `orders` · `marketplacelistings`
+
+<div align="center">
+<img src="docs/screenshots/database.png" alt="MongoDB live collections" width="640" />
+</div>
+
+### 🖼️ Image & AI Processing
+
+![Sharp](https://img.shields.io/badge/Sharp-Image_Processing-99CC00?style=flat-square)
+![HuggingFace](https://img.shields.io/badge/RMBG--2.0-HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
+| Technology | Purpose |
 |---|---|
-| Orders | `orders/orders_screen.dart` |
-| Order Detail | `orders/order_detail_screen.dart` |
-| Marketplace Dashboard | `marketplace/marketplace_dashboard_screen.dart` |
-| Marketplace Publish | `marketplace/marketplace_publish_screen.dart` |
+| Sharp | Server-side image resizing, cropping, and optimization |
+| RMBG-2.0 (HuggingFace) | AI background removal model |
+| Modular AI Service Layer | Swappable — built-in simulation or real providers (Gemini / OpenAI / HuggingFace) |
 
-### 🔍 Search & Discovery
-| Screen | File |
+### 🔧 Tooling & DevOps
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+| Technology | Purpose |
 |---|---|
-| Visual Search | `search/visual_search_screen.dart` |
+| Git + GitHub | Version control & collaboration |
+| GitHub Actions | CI pipeline (`flutter analyze`, `flutter test`) |
 
-### 👤 Profile & Support
-| Screen | File |
-|---|---|
-| Profile | `profile/profile_screen.dart` |
-| AI Chatbot | `chatbot/chatbot_screen.dart` |
+---
 
-```
-Total Screens: 21
-```
+## 📱 Complete App Walkthrough
+
+<details open>
+<summary><strong>🔐 Authentication</strong></summary>
+
+| Login | Register |
+|:---:|:---:|
+| ![Login](docs/screenshots/screen01.png) | ![Register](docs/screenshots/screen02.png) |
+
+</details>
+
+<details open>
+<summary><strong>🏠 Home & Profile</strong></summary>
+
+| Home Dashboard | Home — AI Tools & Assistant | Artisan Profile |
+|:---:|:---:|:---:|
+| ![Home 1](docs/screenshots/screen03.png) | ![Home 2](docs/screenshots/screen04.png) | ![Profile](docs/screenshots/screen05.png) |
+
+| Profile Settings |
+|:---:|
+| ![Profile Settings](docs/screenshots/screen06.png) |
+
+</details>
+
+<details open>
+<summary><strong>🤖 ShilpSathi AI Assistant & Search</strong></summary>
+
+| AI Assistant Chat | AI Assistant — Regional Language | Visual Craft Search |
+|:---:|:---:|:---:|
+| ![AI Chat](docs/screenshots/screen07.png) | ![AI Chat Regional](docs/screenshots/screen08.png) | ![Visual Search](docs/screenshots/screen09.png) |
+
+</details>
+
+<details open>
+<summary><strong>📦 Products, Pricing & Voice Catalog</strong></summary>
+
+| My Craft Products | Smart Pricing Assistant | Voice Catalog |
+|:---:|:---:|:---:|
+| ![My Products](docs/screenshots/screen10.png) | ![Smart Pricing](docs/screenshots/screen11.png) | ![Voice Catalog](docs/screenshots/screen12.png) |
+
+</details>
+
+<details open>
+<summary><strong>➕ Add Product & AI Image Studio</strong></summary>
+
+| Add New Product | AI Image Studio | Edit Product Details |
+|:---:|:---:|:---:|
+| ![Add Product](docs/screenshots/screen13.png) | ![AI Image Studio](docs/screenshots/screen14.png) | ![Edit Details](docs/screenshots/screen15.png) |
+
+</details>
+
+<details open>
+<summary><strong>📝 Product Information & AI Voice Description</strong></summary>
+
+| Craft Specs & Description | AI Voice Assistant — Listening | AI Voice Assistant — Generated |
+|:---:|:---:|:---:|
+| ![Craft Specs](docs/screenshots/screen16.png) | ![Listening](docs/screenshots/screen17.png) | ![AI Generated](docs/screenshots/screen18.png) |
+
+| Craft Specs (Detail) | Cost & Pricing |
+|:---:|:---:|
+| ![Craft Specs Detail](docs/screenshots/screen19.png) | ![Cost & Pricing](docs/screenshots/screen21.png) |
+
+</details>
+
+<details open>
+<summary><strong>🚀 Listing Preview & Publish</strong></summary>
+
+| E-Commerce Listing Preview | Publish — Readiness Checklist | Publish — Economics & Margin |
+|:---:|:---:|:---:|
+| ![Listing Preview](docs/screenshots/screen20.png) | ![Publish Checklist](docs/screenshots/screen22.png) | ![Economics](docs/screenshots/screen23.png) |
+
+| Product Details (Published) |
+|:---:|
+| ![Published](docs/screenshots/screen24.png) |
+
+</details>
 
 ---
 
@@ -233,33 +364,6 @@ Product Photo → Background Removal (RMBG-2.0)
 
 ---
 
-## 🛠️ Technology Stack
-
-| Layer | Technology |
-|---|---|
-| Mobile / Web | Flutter 3.22 |
-| Language | Dart 3.x |
-| Backend | Node.js 18+ |
-| API Framework | Express.js 4.x |
-| Database | MongoDB |
-| ODM | Mongoose |
-| Authentication | JWT (jsonwebtoken) |
-| Password Security | bcryptjs |
-| Networking (client) | Dio 5.x |
-| State Management | flutter_riverpod 2.x |
-| Navigation | go_router 14.x |
-| Image Processing | Sharp, image_picker |
-| Image Caching | cached_network_image |
-| File Upload | Multer |
-| Charts | fl_chart |
-| Animations | animate_do |
-| Security | Helmet, CORS, express-rate-limit |
-| Validation | Joi |
-| Localization | flutter_localizations + intl |
-| Version Control | Git + GitHub |
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -292,8 +396,8 @@ shilpsetu-ai/
 │   ├── src/
 │   │   ├── config/              — DB and env configuration
 │   │   ├── controllers/         — Route handlers
-│   │   ├── models/              — Mongoose schemas
-│   │   ├── routes/              — Express routers
+│   │   ├── models/               — Mongoose schemas
+│   │   ├── routes/               — Express routers
 │   │   ├── services/            — AI, pricing, marketplace, search
 │   │   │   ├── ai/
 │   │   │   ├── pricing/
@@ -301,9 +405,9 @@ shilpsetu-ai/
 │   │   │   └── search/
 │   │   ├── middleware/          — Auth, upload, rate limit, errors
 │   │   ├── validators/          — Joi validation schemas
-│   │   ├── utils/               — Token, response, logger helpers
-│   │   └── scripts/             — Seed and test scripts
-│   ├── uploads/                 — Uploaded product images
+│   │   ├── utils/                — Token, response, logger helpers
+│   │   └── scripts/              — Seed and test scripts
+│   ├── uploads/                  — Uploaded product images
 │   ├── .env.example
 │   └── package.json
 │
@@ -329,84 +433,76 @@ shilpsetu-ai/
 
 ## 🔌 API Overview
 
-```
-Authentication
-  POST   /api/auth/register          — Register new artisan
-  POST   /api/auth/login             — Login with phone + password
-  POST   /api/auth/demo-artisan      — One-tap demo login
-  GET    /api/auth/me                — Get current user profile
-  PUT    /api/auth/profile           — Update profile
-
-Products
-  GET    /api/products               — List artisan products
-  POST   /api/products               — Create product
-  GET    /api/products/stats/summary — Dashboard analytics
-  GET    /api/products/:id           — Get product
-  PUT    /api/products/:id           — Update product
-  DELETE /api/products/:id           — Delete product
-
-AI Services
-  POST   /api/ai/image-enhance       — Image studio processing
-  POST   /api/ai/catalog             — Voice/text → AI catalog
-  POST   /api/ai/pricing             — Smart pricing calculation
-  POST   /api/ai/voice               — Voice text processing
-
-Orders
-  GET    /api/orders                 — List orders
-  GET    /api/orders/:id             — Order details
-  POST   /api/orders                 — Create order
-  PATCH  /api/orders/:id/status      — Update order status
-
-Search
-  POST   /api/search/visual          — Visual similarity search
-
-Marketplace
-  POST   /api/marketplace/publish    — Publish to ONDC + GeM
-  GET    /api/marketplace/listings   — Get marketplace listings
-```
-
 Full API documentation: [`docs/api.md`](docs/api.md)
 
----
+### Authentication
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Splash & Onboarding | Home Dashboard | Product List |
+| Method | Endpoint | Description |
 |---|---|---|
-| ![](docs/screenshots/screen01.png) | ![](docs/screenshots/screen02.png) | ![](docs/screenshots/screen03.png) |
+| `POST` | `/api/auth/register` | Register new artisan |
+| `POST` | `/api/auth/login` | Login with phone + password |
+| `POST` | `/api/auth/demo-artisan` | One-tap demo login |
+| `GET` | `/api/auth/me` | Get current user profile |
+| `PUT` | `/api/auth/profile` | Update profile |
 
-| AI Image Studio | Voice Catalog | Smart Pricing |
+### Products
+
+| Method | Endpoint | Description |
 |---|---|---|
-| ![](docs/screenshots/screen04.png) | ![](docs/screenshots/screen05.png) | ![](docs/screenshots/screen06.png) |
+| `GET` | `/api/products` | List artisan products |
+| `POST` | `/api/products` | Create product |
+| `GET` | `/api/products/stats/summary` | Dashboard analytics |
+| `GET` | `/api/products/:id` | Get product |
+| `PUT` | `/api/products/:id` | Update product |
+| `DELETE` | `/api/products/:id` | Delete product |
 
-| Marketplace | Orders | Profile |
+### AI Services
+
+| Method | Endpoint | Description |
 |---|---|---|
-| ![](docs/screenshots/screen07.png) | ![](docs/screenshots/screen08.png) | ![](docs/screenshots/screen09.png) |
+| `POST` | `/api/ai/image-enhance` | Image studio processing |
+| `POST` | `/api/ai/catalog` | Voice/text → AI catalog |
+| `POST` | `/api/ai/pricing` | Smart pricing calculation |
+| `POST` | `/api/ai/voice` | Voice text processing |
 
-</div>
+### Orders
 
-> See [`docs/screenshots/`](docs/screenshots/) for all 24 screenshots.
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/orders` | List orders |
+| `GET` | `/api/orders/:id` | Order details |
+| `POST` | `/api/orders` | Create order |
+| `PATCH` | `/api/orders/:id/status` | Update order status |
+
+### Search
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/search/visual` | Visual similarity search |
+
+### Marketplace
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/marketplace/publish` | Publish to ONDC + GeM |
+| `GET` | `/api/marketplace/listings` | Get marketplace listings |
 
 ---
 
 ## 🚀 Demo Flow
 
-```
-1.  Tap "Continue as Demo Artisan" on login screen
-2.  View Home Dashboard with analytics
-3.  Tap "Add Product" → capture / upload product photo
-4.  AI Image Studio enhances the photo automatically
-5.  Fill product details → tap "Voice Describe"
-6.  Speak in Hindi or regional language
-7.  AI generates professional English + Hindi catalog
-8.  Smart Pricing calculates 4-tier price recommendations
-9.  Preview product → tap "Publish"
-10. Marketplace dashboard shows ONDC and GeM listings
-11. Visual Search to find similar products
-12. Orders dashboard shows order lifecycle management
-```
+1. Tap **"Continue as Demo Artisan"** on the login screen
+2. View **Home Dashboard** with analytics
+3. Tap **"Add Product"** → capture / upload product photo
+4. **AI Image Studio** enhances the photo automatically
+5. Fill product details → tap **"Voice Describe"**
+6. Speak in Hindi or a regional language
+7. AI generates a professional **English + Hindi catalog**
+8. **Smart Pricing** calculates 4-tier price recommendations
+9. Preview product → tap **"Publish"**
+10. **Marketplace dashboard** shows ONDC and GeM listings
+11. **Visual Search** to find similar products
+12. **Orders dashboard** shows order lifecycle management
 
 ---
 
@@ -442,7 +538,7 @@ npm run seed
 npm run dev
 ```
 
-**Backend API:** `http://localhost:8000/api`  
+**Backend API:** `http://localhost:8000/api`
 **Health Check:** `http://localhost:8000/api/health`
 
 ---
@@ -537,7 +633,7 @@ See [`SECURITY.md`](SECURITY.md) for the full security policy and best practices
 
 ## 👥 Contributors
 
-### Team ShilpSetu AI
+### Team Bug.exe
 
 | Contributor | GitHub |
 |---|---|
@@ -571,7 +667,7 @@ git commit -m "feat: add voice input for Bengali language"
 git push origin feature/your-feature-name
 ```
 
-Please read [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) before contributing.  
+Please read [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) before contributing.
 Issue templates and PR template are in [`.github/`](.github/).
 
 ---
